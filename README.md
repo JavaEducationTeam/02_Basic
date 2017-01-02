@@ -3,24 +3,24 @@
 ## Java IO [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/index.html)
 ### Byte Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html)
     Raw binary adatok kezelése.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html)
+#### InputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html)
     Bemeneti adat folyam.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/OutputStream.html)
+#### OutputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/OutputStream.html)
     Kimeneti adat folyam.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html)
+#### FileInputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html)
     File input adat folyam.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html)
+#### FileOutputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html)
     File output adat folyam.
 
 ### Character Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/charstreams.html)
     handle I/O of character data, automatically handling translation to and from the local character set.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Reader.html)
+#### Reader [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Reader.html)
     Bemeneti karakter alapú adat forrás.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Writer.html)
+#### Writer [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Writer.html)
     Kimeneti karakter alapú adat forrás.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html)
+#### FileReader [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html)
     Karakteres file input.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileWriter.html)
+#### FileWriter [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/FileWriter.html)
     Karakteres file output.
 
 ### Buffered Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/buffers.html)
@@ -34,55 +34,47 @@
     allows a program to read and write formatted text.
 ### I/O from the Command Line [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/cl.html)
     describes the Standard Streams and the Console object.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Console.html)
+#### Console [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/Console.html)
 ### Data Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/datastreams.html)
     handle binary I/O of primitive data type and String values.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataInput.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataOutput.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataInputStream.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataOutputStream.html)
+#### DataInput [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataInput.html)
+#### DataOutput [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataOutput.html)
+#### DataInputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataInputStream.html)
+#### DataOutputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/DataOutputStream.html)
 ### Object Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/objectstreams.html)
     handle binary I/O of objects.
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInput.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutput.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html)
-#### [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html)
+#### ObjectInput [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInput.html)
+#### ObjectOutput [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutput.html)
+#### ObjectInputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html)
+#### ObjectOutputStream [Java API](https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html)
 
 
 
 ## Java Logging
 
 
-## Java Concurrency
-[Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
+## Java Concurrency [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
 
-### Thread Objects
-[Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/threads.html),
-[Life cycle](http://www.javatpoint.com/life-cycle-of-a-thread)
-
+### Thread Objects [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/threads.html),[Life cycle](http://www.javatpoint.com/life-cycle-of-a-thread)
 #### Thread [Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html)
-Szál osztály
+    Szál osztály
 #### Runnable [Java Api](https://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html)
-Szál interface
-
-### Synchronization
-[Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html)
-
+    Szál interface
+### Synchronization [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html)
+    Zárak alkalmazása, konkurens hozzáférések kezelésére.
 ### High Level Concurrency Objects [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/highlevel.html)
-Konkurencia kezelés
-
-##### Lock Objects [Java API package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/package-summary.html)
-[Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html)
-
-###### Condition [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/Condition.html),[Example - Java Concurrency in Practice](http://jcip.net/listings/ConditionBoundedBuffer.java)
-Általános várakozási sor
+    Konkurencia kezelés
+##### Lock Objects [Java API package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/package-summary.html), [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html)
 ###### Lock [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/Lock.html)
-Általános belső zár
+    Általános belső zár
+###### Condition [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/Condition.html),[Example - Java Concurrency in Practice](http://jcip.net/listings/ConditionBoundedBuffer.java)
+    Általános várakozási sor
 ###### ReadWriteLock [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReadWriteLock.html)
-###### LockSupport [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/LockSupport.html)
+    Több olvasó, egy író zár.
 ###### ReentrantLock [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html)
+    Ugyan az mint a syncronized.
 ###### ReentrantReadWriteLock [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantReadWriteLock.html)
-###### StampedLock [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/StampedLock.html)
+    Több olvasó, egy író zár, írás közben nem lehet olvasni.
 
 #### Concurrent Collections [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/collections.html), [Java API package](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html)
 ##### BlockingQueue [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/BlockingQueue.html)
