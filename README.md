@@ -5,10 +5,11 @@
 [beginnersbook.com](http://beginnersbook.com/java-collections-tutorials/)
 Generics:[elmélet](https://docs.oracle.com/javase/tutorial/extra/generics/index.html)
 
-### Collection
+### Collection 
+    Objektumok csoportja
 [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html) 
 [API](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
-    Objektumok csoportja
+    
 #### [SET]()
 [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
 
