@@ -5,13 +5,18 @@
 [beginnersbook.com](http://beginnersbook.com/java-collections-tutorials/)
 Generics:[elmélet](https://docs.oracle.com/javase/tutorial/extra/generics/index.html)
 
-### Collection [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html) 
-[API](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
-
+### Collection 
     Objektumok csoportja
+[Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html) 
+[API](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
     
-#### [SET]()
-[HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+#### SET
+    Olyan objektum csoport, amelyben nem lehet ugyan az a példány kétszer
+Set
+[API](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
+[Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
+HashSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+TreeSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
 
 ## Java IO [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/index.html)
 ### Byte Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html)
