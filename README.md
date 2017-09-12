@@ -5,18 +5,31 @@
 [beginnersbook.com](http://beginnersbook.com/java-collections-tutorials/)
 Generics:[elmélet](https://docs.oracle.com/javase/tutorial/extra/generics/index.html)
 
-### Collection 
+### Collection [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html), [API](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
     Objektumok csoportja
-[Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html) 
-[API](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)
     
-#### SET
+### Set [API](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html), [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
     Olyan objektum csoport, amelyben nem lehet ugyan az a példány kétszer
-Set
-[API](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
-[Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/set.html)
-HashSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
-TreeSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
+#### HashSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+#### TreeSet [API](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
+#### LinkedHashSet [API]https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html
+
+### List [API](https://docs.oracle.com/javase/8/docs/api/java/util/List.html), [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html)
+#### ArrayList [API](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+#### LinkedList [API](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
+
+### Queue [API](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html), [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/queue.html)
+#### PriorityQueue [API](https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html)
+
+### Deque [API](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html), [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/deque.html)
+#### ArrayDeque [API](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html)
+#### LinkedList [API](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
+
+### Map [API](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html), [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/map.html)
+#### HashMap [API](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+#### TreeMap [API](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
+#### LinkedHashMap [API](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
+
 
 ## Java IO [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/index.html)
 ### Byte Streams [Oracle tutorial](http://docs.oracle.com/javase/tutorial/essential/io/bytestreams.html)
